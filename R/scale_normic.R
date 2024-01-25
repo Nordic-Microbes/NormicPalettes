@@ -1,6 +1,7 @@
 #' Scale with Nordic Microbes colors
 #'
 #' @param palette A palette from the normic_colors vector
+#' @param ... Arguments to pass on to scale_*_manual
 #'
 #' @name scale_normic
 #'
@@ -46,6 +47,9 @@ scale_fill_normic_c = function(palette = "greens_gradient", ...) {
                                                           type = "continuous"), ...)
 }
 
-
+#' @rdname scale_normic
+#' @export
 scale_color_normic_d = scale_colour_normic_d
+#' @rdname scale_normic
+#' @export
 scale_color_normic_c = scale_colour_normic_c

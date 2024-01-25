@@ -6,6 +6,8 @@
 \alias{scale_fill_normic_d}
 \alias{scale_colour_normic_c}
 \alias{scale_fill_normic_c}
+\alias{scale_color_normic_d}
+\alias{scale_color_normic_c}
 \title{Scale with Nordic Microbes colors}
 \usage{
 scale_colour_normic_d(palette = "darks_discrete", ...)
@@ -15,9 +17,15 @@ scale_fill_normic_d(palette = "darks_discrete", ...)
 scale_colour_normic_c(palette = "greens_gradient", ...)
 
 scale_fill_normic_c(palette = "greens_gradient", ...)
+
+scale_color_normic_d(palette = "darks_discrete", ...)
+
+scale_color_normic_c(palette = "greens_gradient", ...)
 }
 \arguments{
 \item{palette}{A palette from the normic_colors vector}
+
+\item{...}{Arguments to pass on to scale_*_manual}
 }
 \value{
 a set of aesthetic values to map data values to. The values will be matched in order (usually alphabetical) with the limits of the scale, or with breaks if provided. If this is a paletted vector, then the values will be matched based on the palettes instead. Data values that don't match will be given na.value.
