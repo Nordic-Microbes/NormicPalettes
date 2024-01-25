@@ -4,8 +4,7 @@ Title: ggplot2 color palettes for the company Nordic Microbes
 Version: 0.1.0
 Author: Mark Lyng
 Maintainer: Mark Lyng <ml@bioomix.com>
-Description: Wrappers around scale_*_manual for continuous (c) and discrete (d) scales of ggplot2. 
-    Includes the official company colors of Nordic Microbes A/S
+Description: Wrappers around scale_*_manual for continuous (c) and discrete (d) scales of ggplot2. Includes the official company colors of Nordic Microbes A/S
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
